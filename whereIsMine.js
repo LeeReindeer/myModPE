@@ -30,11 +30,9 @@ function useItem(x, y, z, itemid, blockid, blockSide) {
 		while(yy>0){
 		var nextBlock=getTile(x, yy, z);
 		mineId=findMine(nextBlock);
-		//print(mineId);
 		if (mineId!=0) {
 			var distance=y-yy;
 			clientMessage("Find:"+Item.getName(mineId, 0, false)+"  Distance:"+distance);
-			//clientMessage("Find "+Item.getName(mineId,0,false)+"under "+y-yy+" blocks!");
 			break;
 		  }
 		  yy--;
@@ -52,7 +50,7 @@ function findMine(blockId) {
 		case ironId:
 		case goldId:
 		case diamondId:
-	    case lazuliId:
+	        case lazuliId:
 		case redStoneId:
 		  mineId=blockId;
 		  break;
