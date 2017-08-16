@@ -2,7 +2,7 @@
 
 > some fun and useful mods for Minecraft PE.
 
-| Mod | Description |
-|--------|--------|
-|[whereIsMine](https://github.com/LeeReindeer/myModPE/blob/master/Mods/whereIsMine.js)| Find mine under your clicked item(***very useful for survive***).|
-| ...| ...|
+| Mod | Description |Usage|
+|--------|--------|--------|
+|[whereIsMine](https://github.com/LeeReindeer/myModPE/blob/master/Mods/whereIsMine.js)| Find mine under your clicked item(***very useful for survive***).|you must use stone pickaxe to click the upside of the block to find mine under this block(it will find the first ore it occurs.)|
+| ...| ...|...|
