@@ -20,10 +20,10 @@ var diamondId=56;
 var lazuliId=21;
 var redStoneId=74;
 
-function useItem(x, y, z, itemid, blockid, blockSide) {
+function useItem(x, y, z, itemId, blockId, blockSide) {
 	var yy=y;
-	//you must click the upside
-	if (blockSide!=1) {
+	//you must use ston pickaxe to click the upside
+	if (blockSide!=1||itemId!=274) {
 		return;
 	}else{
 		var mineId;
@@ -50,7 +50,7 @@ function findMine(blockId) {
 		case ironId:
 		case goldId:
 		case diamondId:
-	        case lazuliId:
+	    case lazuliId:
 		case redStoneId:
 		  mineId=blockId;
 		  break;
